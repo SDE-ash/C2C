@@ -1,0 +1,155 @@
+a {
+text-decoration: none;
+color: white;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: -20px;
+}
+
+
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 50px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.b1{
+    border: 2px solid white;
+    height: 400px;
+    width: 100%;
+}
+
+.ot-b2{
+    margin-top: 10px;
+    border: 1px solid white;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pd{
+    border: 1px solid white;
+    height: 320px;
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.img{
+    border: 1px solid white;
+    height: 200px;
+    margin: 5px;
+}
+
+.desc{
+    border: 1px solid white;
+    height: 100px;
+    margin: 5px;
+}
+
+
+/* why choose us? */
+.chs{
+    margin-top: 10px;
+    border: 1px solid white;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.card{
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 320px;
+    width: 380px;
+    margin-top: 20px;
+}
+
+
+.carousel {
+    /* width: 300px; */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/* .carousel-slide {
+    min-width: 300px;
+   
+} */
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.re-bx{
+    border: 1px solid white;
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+}
+
+.reviews{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.all-rev{
+    border: 1px solid #d2cfca;
+    border-radius: 15px;
+    height: 150px;
+    width: 120px;
+    background-color: #d2cfca;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    padding: 2px;
+    
+}
+h4{
+    text-align: center;
+}
+
+
+.all-rev {
+    transition: background-color 0.3s ease;
+    
+}
+
+.all-rev:hover {
+    background-color: rgb(194, 255, 221);
+}
+
+
+
